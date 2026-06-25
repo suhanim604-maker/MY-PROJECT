@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image:url(https://wallpaperaccess.com/full/481666.jpg) ; */
+    display: flex;
+    justify-content: center;
+    background: #0B0B0B;
+    color: #F59E0B;
+    text-shadow:3px 3px 30px #F59E0B;
+}
+.container{
+   height: 500px;
+   width: 400px;
+   margin-top: 50px;
+   border-radius: 10px;
+   padding: 30px;
+   background: #1E1E1E;
+border: 1px solid #F59E0B;
+box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+}
+h1{
+    text-align: center;
+}
+
+.setting{
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#copyBtn{
+    margin-top: 30px;
+    padding: 10px;
+    border: rgba(128, 128, 128, 0.76) solid 1px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background: #F59E0B;
+}
+#copyBtn:hover{
+    background: green;
+    color: #F59E0B;
+    box-shadow: 3px 3px 30px green;
+}
+#generateBtn{
+    width: 100%;
+    padding: 10px;
+    background: rgba(4, 4, 223, 0.87);
+    border-radius: 8px;
+    margin-top: 70px;
+    border: none;
+    color: #F59E0B;
+    font-size: 17px;
+}
+#generateBtn:hover{
+    background: green;
+    cursor: pointer;
+    border: 1px solid rgb(8, 68, 8);
+    box-shadow: 3px 3px 30px green;
+}
+.output{
+    display: flex;
+   gap: 100px;
+}
+#Password{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: rgba(128, 128, 128, 0.849) solid 1px;
+    background: rgba(209, 207, 207, 0.185);
+    color: white;
+}
+input[type="range"]{
+   accent-color: #F59E0B;
+}
+input[type="checkbox"]{
+   accent-color: #F59E0B;
+}
