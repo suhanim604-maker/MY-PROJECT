@@ -15,7 +15,7 @@ body{
 .container{
     height: 90%;
     width: 90%;
-    background: rgba(39, 38, 38, 0.658);
+    background: rgba(58, 56, 56, 0.658);
     border-radius: 15px;
     padding: 30px;
 }
@@ -31,6 +31,11 @@ input{
     border-radius: 10px;
     border: none;
     margin-left: 280px;
+    padding: 10px;
+    font-size: 18px;
+}
+input:hover{
+    border: 1px solid gray;
 }
 button{
     width: 100px;
@@ -38,6 +43,13 @@ button{
     margin-top: 20px;
     border-radius: 10px;
     border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+button:hover{
+    background-color: #7367F0;
+    color: white;
+    box-shadow: 0 0 5px;
 }
 .head{
     margin-left: 450px;
@@ -57,24 +69,44 @@ a{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 100px;
+    background-color: white;
+    color: black;
 }
-.he{
-    margin-left: 100px;
+a:hover{
+    background-color: #7367F0;
+    color: white;
+    box-shadow: 0 0 5px;
 }
 h3{
     height: 50px;
-    width: 200px;
+    width: 350px;
     background-color: rgba(44, 41, 41, 0.37);
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 5px white;
+    /* box-shadow: 0 0 5px white; */
+    border: 1px solid gray;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all;
+}
+h3:hover{
+    transform: translate(2px);
+    box-shadow: 0 0 5px white;
+}
+p{
+    font-size: 20px;
+margin-bottom: 20px;
 }
 img{
     height: 180px;
     width: 180px;
     border-radius: 50%;
+    border: 3px solid gray;
+    box-shadow: 0 0 5px white;
 }

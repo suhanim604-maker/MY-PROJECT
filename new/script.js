@@ -22,8 +22,8 @@ async function loadUser() {
            card.innerHTML=`<div class = "empty">
            <div><img src="${data.avatar_url}" alt="">
            <h2> ✦ Usename - ${data.name}</h2><br>
-               <a href=${data.html_url} target="_blank" >  ✦ visit profile </a>
-               <p>  ✦ followers - ${data.followers}</p>
+           <p>  ✦ followers - ${data.followers}</p>
+           <a href=${data.html_url} target="_blank" >  ✦ visit profile </a>
             </div>
             <div class="info">
                <h3 class="he">  ✦ bio - ${data.bio}</h3>
