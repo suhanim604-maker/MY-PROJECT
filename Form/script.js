@@ -1,4 +1,4 @@
-document.getElementById("btn").addEventListener("click",(e)=>{
+document.getElementById("btn").addEventListener("click",()=>{
       e.preventDefault();
     const userData = {
     
