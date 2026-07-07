@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>randomUser</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url("https://wallpapercave.com/wp/wp15344260.jpg") no-repeat center center/cover;
+    padding:20px;
+}
+
+#container{
+    width:430px;
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.2);
+    border-radius:20px;
+    padding:30px;
+    color:white;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+h2{
+    margin:20px 0 25px;
+    font-size:30px;
+    color:white;
+}
+
+#user-image{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    box-shadow:0 0 15px rgba(255,255,255,.4);
+}
+
+.info{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 0;
+    border-bottom:1px solid rgba(255,255,255,.15);
+}
+
+.info span{
+    color:#6fffe9;
+    font-weight:bold;
+    font-size:17px;
+}
+
+.info p{
+    color:white;
+    font-size:16px;
+    text-align:right;
+    max-width:220px;
+    word-break:break-word;
+}
+
+button{
+    margin-top:25px;
+    width:100%;
+    padding:13px;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(135deg,#00c6ff,#0072ff);
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(0,114,255,.5);
+}
+
+button:active{
+    transform:scale(.97);
+}
+
+@media(max-width:500px){
+
+    #container{
+        width:100%;
+    }
+
+    .info{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:5px;
+    }
+
+    .info p{
+        text-align:left;
+        max-width:100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+
+        <img id="user-image" src="" alt="User Image">
+
+        <h2>Random User Generator</h2>
+
+        <div class="info">
+            <span>Name</span>
+            <p id="user-name">Loading...</p>
+        </div>
+
+        <div class="info">
+            <span>Email</span>
+            <p id="user-email">Loading...</p>
+        </div>
+
+        <div class="info">
+            <span>Phone</span>
+            <p id="user-number">Loading...</p>
+        </div>
+
+        <div class="info">
+            <span>Location</span>
+            <p id="user-location">Loading...</p>
+        </div>
+
+        <div class="info">
+            <span>Age</span>
+            <p id="user-age">Loading...</p>
+        </div>
+
+        <button id="fetch-btn">Next User</button>
+
+    </div>
+
+    <script src="hey.js"></script>
+
+</body>
+</html>
+    
+    
+    <script src="hey.js"></script>
+</body>
+</html>
