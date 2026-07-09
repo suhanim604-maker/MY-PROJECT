@@ -22,7 +22,20 @@ const songs = [
         artist: "Faheem Abdullah",
         src: "songs/saiyara.mp3",
         cover: "images/saiyara.jpg"
+    },
+        {
+        title: "ishq de fanniyar",
+        artist: "jyotica tangri",
+        src: "songs/ishq de faniyar.mp3",
+        cover: "images/ishq de faniyar.jpg"
+    },
+        {
+        title: "jag bega n hoya",
+        artist: "anand raj",
+        src: "songs/jag bega n.mp3",
+        cover: "images/jag bega n.jpg"
     }
+    
 ];
 
 const audio = document.getElementById("audio");
